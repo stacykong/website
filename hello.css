@@ -1,4 +1,57 @@
-p{
+#menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+#m{
+	float: left;
+}
+
+#p1{
+	color: red;
+	text-align: left;
+}
+
+#p2{
 	color: blue;
-	text-align: center;
+	text-align: left;
+	font-family: comic sans ms;
+	font-size; 18px;
+}
+
+#p3{
+	color: gray;
+	text-align: left;
+	font-family: papyrus;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: magenta;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ul {
+	list-style-type: circle;
 }
