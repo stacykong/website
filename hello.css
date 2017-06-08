@@ -10,6 +10,22 @@
 	float: left;
 }
 
+#m a{
+	display: block;
+	text-align: center;
+	padding: 16px;
+	color: magenta;
+}
+
+#m a:hover{
+	background-color: #333333;
+	color: green;
+}
+
+#m{
+	float: left;
+}
+
 #p1{
 	color: red;
 	text-align: left;
@@ -54,4 +70,16 @@ a:active{
 
 ul {
 	list-style-type: circle;
+}
+
+div.cities{
+	background-color: gray;
+	color: blue;
+	margin: 10px 0 10px 0;
+	padding: 10px;
+}
+
+span.note{
+	font-size: 120%;
+	color: green;
 }
